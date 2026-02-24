@@ -35,10 +35,10 @@ api.interceptors.response.use(
     return response;
   },
   (error) => {
-    // 401 matlab unauthorized - user ko login page pe bhejo
     if (error.response?.status === 401) {
       if (typeof window !== 'undefined') {
         localStorage.removeItem('token');
+        document.cookie = "token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
         // Login page pe redirect karo sirf agar already login pe nahi hain
         if (!window.location.pathname.includes('/login') && !window.location.pathname.includes('/register')) {
           window.location.href = '/login';
