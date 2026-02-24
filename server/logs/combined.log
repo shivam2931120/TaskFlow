@@ -1,0 +1,507 @@
+2026-02-24 00:53:27 [ERROR]: Database se connect nahi ho paa raha: connect ECONNREFUSED 127.0.0.1:5432
+2026-02-24 00:53:27 [INFO]: TaskFlow server port 5000 pe chal raha hai
+2026-02-24 00:53:27 [INFO]: Environment: development
+2026-02-24 00:53:27 [INFO]: API URL: http://localhost:5000/api
+2026-02-24 00:54:12 [INFO]: PostgreSQL (Supabase pooler) se connection successful hai
+2026-02-24 00:54:12 [INFO]: TaskFlow server port 5000 pe chal raha hai
+2026-02-24 00:54:12 [INFO]: Environment: development
+2026-02-24 00:54:12 [INFO]: API URL: http://localhost:5000/api
+2026-02-24 00:54:41 [WARN]: Route nahi mila: GET /health
+2026-02-24 00:54:41 [INFO]: GET /health 404 58 - 3.917 ms
+2026-02-24 00:54:55 [INFO]: GET /api/health 200 95 - 1.885 ms
+2026-02-24 00:55:06 [ERROR]: Register controller error: relation "users" does not exist
+2026-02-24 00:55:06 [ERROR]: Error: relation "users" does not exist | Path: /api/auth/register | Method: POST
+2026-02-24 00:55:06 [INFO]: POST /api/auth/register 500 352 - 263.761 ms
+2026-02-24 00:55:48 [INFO]: Naya user registered: test@taskflow.com
+2026-02-24 00:55:48 [INFO]: POST /api/auth/register 201 453 - 610.217 ms
+2026-02-24 00:56:58 [WARN]: Route nahi mila: GET /
+2026-02-24 00:56:58 [INFO]: GET / 404 52 - 0.578 ms
+2026-02-24 00:56:58 [WARN]: Route nahi mila: GET /favicon.ico
+2026-02-24 00:56:58 [INFO]: GET /favicon.ico 404 63 - 2.518 ms
+2026-02-24 01:00:03 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 01:00:03 [INFO]: GET /api/auth/check 401 74 - 1.456 ms
+2026-02-24 01:00:03 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 01:00:03 [INFO]: GET /api/auth/check 401 74 - 2.225 ms
+2026-02-24 01:00:05 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 01:00:05 [INFO]: GET /api/auth/check 401 74 - 1.098 ms
+2026-02-24 01:00:05 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 01:00:05 [INFO]: GET /api/auth/check 401 74 - 4.239 ms
+2026-02-24 01:00:58 [INFO]: User logged in: test@taskflow.com
+2026-02-24 01:00:58 [INFO]: POST /api/auth/login 200 446 - 815.400 ms
+2026-02-24 01:00:58 [INFO]: Task created: My first task by user test@taskflow.com
+2026-02-24 01:00:58 [INFO]: POST /api/tasks 201 299 - 67.196 ms
+2026-02-24 01:01:14 [INFO]: Task created: My first task by user test@taskflow.com
+2026-02-24 01:01:14 [INFO]: POST /api/tasks 201 299 - 64.930 ms
+2026-02-24 01:01:36 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 01:01:36 [INFO]: GET /api/auth/check 401 74 - 0.766 ms
+2026-02-24 01:01:36 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 01:01:36 [INFO]: GET /api/auth/check 401 74 - 3.408 ms
+2026-02-24 01:09:41 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 01:09:41 [INFO]: GET /api/auth/check 401 74 - 0.987 ms
+2026-02-24 01:09:41 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 01:09:41 [INFO]: GET /api/auth/check 401 74 - 3.886 ms
+2026-02-24 01:09:46 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 01:09:46 [INFO]: GET /api/auth/check 401 74 - 0.867 ms
+2026-02-24 01:09:46 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 01:09:46 [INFO]: GET /api/auth/check 401 74 - 3.071 ms
+2026-02-24 01:10:43 [INFO]: GET /api/health 200 95 - 0.176 ms
+2026-02-24 01:11:03 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 01:11:03 [INFO]: GET /api/auth/check 401 74 - 0.626 ms
+2026-02-24 01:11:03 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 01:11:03 [INFO]: GET /api/auth/check 401 74 - 2.581 ms
+2026-02-24 01:11:03 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 01:11:03 [INFO]: GET /api/auth/check 401 74 - 5.838 ms
+2026-02-24 01:11:03 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 01:11:03 [INFO]: GET /api/auth/check 401 74 - 1.814 ms
+2026-02-24 18:12:29 [INFO]: PostgreSQL (Supabase pooler) se connection successful hai
+2026-02-24 18:12:29 [INFO]: TaskFlow server port 5000 pe chal raha hai
+2026-02-24 18:12:29 [INFO]: Environment: development
+2026-02-24 18:12:29 [INFO]: API URL: http://localhost:5000/api
+2026-02-24 18:13:23 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 18:13:23 [INFO]: GET /api/auth/check 401 74 - 5.319 ms
+2026-02-24 18:13:23 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 18:13:23 [INFO]: GET /api/auth/check 401 74 - 2.699 ms
+2026-02-24 18:13:34 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 18:13:34 [INFO]: GET /api/auth/check 401 74 - 4.797 ms
+2026-02-24 18:13:34 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 18:13:34 [INFO]: GET /api/auth/check 401 74 - 4.429 ms
+2026-02-24 18:14:01 [INFO]: Naya user registered: shivam.bgp@outlook.com
+2026-02-24 18:14:01 [INFO]: POST /api/auth/register 201 458 - 824.526 ms
+2026-02-24 18:14:04 [INFO]: GET /api/notifications 200 335 - 62.513 ms
+2026-02-24 18:14:05 [INFO]: GET /api/tasks/dashboard/stats 200 302 - 414.324 ms
+2026-02-24 18:14:05 [INFO]: GET /api/tasks/dashboard/stats 304 - - 52.359 ms
+2026-02-24 18:14:05 [INFO]: GET /api/suggestions 200 33 - 469.890 ms
+2026-02-24 18:14:05 [INFO]: GET /api/notifications 304 - - 512.819 ms
+2026-02-24 18:14:05 [INFO]: GET /api/suggestions 304 - - 45.958 ms
+2026-02-24 18:14:14 [INFO]: GET /api/notifications 304 - - 42.888 ms
+2026-02-24 18:14:14 [INFO]: GET /api/notifications 304 - - 41.728 ms
+2026-02-24 18:14:14 [INFO]: GET /api/notifications 304 - - 44.812 ms
+2026-02-24 18:14:14 [INFO]: GET /api/notifications 304 - - 45.521 ms
+2026-02-24 18:14:18 [INFO]: DELETE /api/notifications/65341073-2ae4-4823-bbdb-c3bde84f272b 200 56 - 45.825 ms
+2026-02-24 18:14:19 [INFO]: GET /api/notifications 200 51 - 47.957 ms
+2026-02-24 18:14:19 [INFO]: GET /api/suggestions 304 - - 33.743 ms
+2026-02-24 18:14:19 [INFO]: GET /api/tasks/dashboard/stats 304 - - 52.316 ms
+2026-02-24 18:14:19 [INFO]: GET /api/notifications 304 - - 41.019 ms
+2026-02-24 18:14:19 [INFO]: GET /api/suggestions 304 - - 56.830 ms
+2026-02-24 18:14:19 [INFO]: GET /api/tasks/dashboard/stats 304 - - 62.769 ms
+2026-02-24 18:14:23 [INFO]: GET /api/notifications 304 - - 54.392 ms
+2026-02-24 18:14:23 [INFO]: GET /api/notifications 304 - - 48.444 ms
+2026-02-24 18:14:27 [INFO]: GET /api/notifications 304 - - 43.557 ms
+2026-02-24 18:14:27 [INFO]: GET /api/notifications 304 - - 43.732 ms
+2026-02-24 18:14:27 [INFO]: GET /api/notifications 304 - - 44.271 ms
+2026-02-24 18:14:27 [INFO]: GET /api/notifications 304 - - 45.344 ms
+2026-02-24 18:14:30 [INFO]: GET /api/notifications 304 - - 39.558 ms
+2026-02-24 18:14:30 [INFO]: GET /api/tasks?page=1&limit=10 200 99 - 74.016 ms
+2026-02-24 18:14:30 [INFO]: GET /api/notifications 304 - - 39.429 ms
+2026-02-24 18:14:30 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 78.821 ms
+2026-02-24 18:14:40 [WARN]: Route nahi mila: HEAD /api
+2026-02-24 18:14:40 [INFO]: HEAD /api 404 56 - 2.503 ms
+2026-02-24 18:14:40 [WARN]: Route nahi mila: GET /api
+2026-02-24 18:14:40 [INFO]: GET /api 404 55 - 1.038 ms
+2026-02-24 18:15:00 [INFO]: GET /api/notifications 304 - - 41.892 ms
+2026-02-24 18:15:30 [INFO]: GET /api/notifications 304 - - 308.153 ms
+2026-02-24 18:16:00 [INFO]: GET /api/notifications 304 - - 65.834 ms
+2026-02-24 18:16:30 [INFO]: GET /api/notifications 304 - - 29.771 ms
+2026-02-24 18:17:00 [INFO]: GET /api/notifications 304 - - 30.484 ms
+2026-02-24 18:17:17 [INFO]: GET /api/notifications 304 - - 39.196 ms
+2026-02-24 18:17:17 [INFO]: GET /api/notifications 304 - - 37.188 ms
+2026-02-24 18:17:17 [INFO]: GET /api/tasks/dashboard/stats 304 - - 438.838 ms
+2026-02-24 18:17:18 [INFO]: GET /api/tasks/dashboard/stats 304 - - 48.401 ms
+2026-02-24 18:17:18 [INFO]: GET /api/suggestions 304 - - 517.547 ms
+2026-02-24 18:17:18 [INFO]: GET /api/suggestions 304 - - 40.462 ms
+2026-02-24 18:17:19 [INFO]: GET /api/notifications 304 - - 38.484 ms
+2026-02-24 18:17:19 [INFO]: GET /api/notifications 304 - - 35.844 ms
+2026-02-24 18:17:19 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 85.115 ms
+2026-02-24 18:17:19 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 82.021 ms
+2026-02-24 18:17:20 [INFO]: GET /api/notifications 304 - - 44.400 ms
+2026-02-24 18:17:20 [INFO]: GET /api/notifications 304 - - 40.951 ms
+2026-02-24 18:17:20 [INFO]: GET /api/notifications 304 - - 43.053 ms
+2026-02-24 18:17:20 [INFO]: GET /api/notifications 304 - - 44.310 ms
+2026-02-24 18:17:23 [INFO]: GET /api/notifications 304 - - 40.222 ms
+2026-02-24 18:17:23 [INFO]: GET /api/notifications 304 - - 41.427 ms
+2026-02-24 18:17:26 [INFO]: GET /api/notifications 304 - - 41.678 ms
+2026-02-24 18:17:26 [INFO]: GET /api/notifications 304 - - 40.671 ms
+2026-02-24 18:17:26 [INFO]: GET /api/notifications 304 - - 44.624 ms
+2026-02-24 18:17:26 [INFO]: GET /api/notifications 304 - - 45.382 ms
+2026-02-24 18:17:32 [INFO]: GET /api/notifications 304 - - 46.033 ms
+2026-02-24 18:17:32 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 76.569 ms
+2026-02-24 18:17:32 [INFO]: GET /api/notifications 304 - - 43.490 ms
+2026-02-24 18:17:33 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 83.310 ms
+2026-02-24 18:17:47 [INFO]: Task created: bfbg by user shivam.bgp@outlook.com
+2026-02-24 18:17:47 [INFO]: POST /api/tasks 201 318 - 95.982 ms
+2026-02-24 18:17:47 [INFO]: GET /api/tasks?page=1&limit=10 200 348 - 87.933 ms
+2026-02-24 18:18:02 [INFO]: GET /api/notifications 200 301 - 41.228 ms
+2026-02-24 18:18:32 [INFO]: GET /api/notifications 304 - - 52.065 ms
+2026-02-24 18:18:34 [INFO]: Task deleted: bfbg by user shivam.bgp@outlook.com
+2026-02-24 18:18:34 [INFO]: DELETE /api/tasks/7339fca5-f7ec-479d-ac70-085671be44f8 200 61 - 94.795 ms
+2026-02-24 18:18:34 [INFO]: GET /api/tasks?page=1&limit=10 200 99 - 84.277 ms
+2026-02-24 18:18:44 [INFO]: GET /api/notifications 304 - - 45.082 ms
+2026-02-24 18:18:44 [INFO]: GET /api/notifications 304 - - 47.929 ms
+2026-02-24 18:18:45 [INFO]: GET /api/notifications 304 - - 43.078 ms
+2026-02-24 18:18:45 [INFO]: GET /api/notifications 304 - - 41.294 ms
+2026-02-24 18:18:45 [INFO]: GET /api/notifications 304 - - 47.807 ms
+2026-02-24 18:18:45 [INFO]: GET /api/notifications 304 - - 44.622 ms
+2026-02-24 18:18:46 [INFO]: GET /api/notifications 304 - - 46.673 ms
+2026-02-24 18:18:46 [INFO]: GET /api/notifications 304 - - 45.711 ms
+2026-02-24 18:18:46 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 345.626 ms
+2026-02-24 18:18:46 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 72.004 ms
+2026-02-24 18:18:47 [INFO]: GET /api/notifications 304 - - 51.366 ms
+2026-02-24 18:18:47 [INFO]: GET /api/suggestions 304 - - 48.834 ms
+2026-02-24 18:18:47 [INFO]: GET /api/suggestions 304 - - 39.165 ms
+2026-02-24 18:18:47 [INFO]: GET /api/notifications 304 - - 324.996 ms
+2026-02-24 18:18:47 [INFO]: GET /api/tasks/dashboard/stats 304 - - 364.782 ms
+2026-02-24 18:18:47 [INFO]: GET /api/tasks/dashboard/stats 304 - - 51.604 ms
+2026-02-24 18:18:55 [INFO]: GET /api/notifications 304 - - 41.300 ms
+2026-02-24 18:18:55 [INFO]: GET /api/notifications 304 - - 37.639 ms
+2026-02-24 18:18:55 [INFO]: GET /api/notifications 304 - - 38.812 ms
+2026-02-24 18:18:55 [INFO]: GET /api/notifications 304 - - 39.406 ms
+2026-02-24 18:18:55 [INFO]: GET /api/notifications 304 - - 38.061 ms
+2026-02-24 18:18:55 [INFO]: GET /api/notifications 304 - - 35.904 ms
+2026-02-24 18:18:56 [INFO]: GET /api/notifications 304 - - 38.201 ms
+2026-02-24 18:18:56 [INFO]: GET /api/notifications 304 - - 35.420 ms
+2026-02-24 18:18:56 [INFO]: GET /api/notifications 304 - - 39.146 ms
+2026-02-24 18:18:56 [INFO]: GET /api/notifications 304 - - 37.670 ms
+2026-02-24 18:19:00 [INFO]: All notifications marked as read for user shivam.bgp@outlook.com
+2026-02-24 18:19:00 [INFO]: PUT /api/notifications/read-all 200 66 - 35.962 ms
+2026-02-24 18:19:01 [INFO]: DELETE /api/notifications/03c649d9-d92e-417c-9159-c88040cd25e7 200 56 - 43.922 ms
+2026-02-24 18:19:03 [INFO]: GET /api/notifications 200 51 - 39.714 ms
+2026-02-24 18:19:03 [INFO]: GET /api/notifications 304 - - 41.524 ms
+2026-02-24 18:19:17 [INFO]: GET /api/notifications 304 - - 43.438 ms
+2026-02-24 18:19:17 [INFO]: GET /api/notifications 304 - - 42.045 ms
+2026-02-24 18:19:17 [INFO]: GET /api/notifications 304 - - 44.270 ms
+2026-02-24 18:24:57 [INFO]: PostgreSQL (Supabase pooler) se connection successful hai
+2026-02-24 18:24:57 [INFO]: TaskFlow server port 5000 pe chal raha hai
+2026-02-24 18:24:57 [INFO]: Environment: development
+2026-02-24 18:24:57 [INFO]: API URL: http://localhost:5000/api
+2026-02-24 18:24:59 [INFO]: PostgreSQL (Supabase pooler) se connection successful hai
+2026-02-24 18:24:59 [INFO]: TaskFlow server port 5000 pe chal raha hai
+2026-02-24 18:24:59 [INFO]: Environment: development
+2026-02-24 18:24:59 [INFO]: API URL: http://localhost:5000/api
+2026-02-24 18:26:17 [INFO]: PostgreSQL (Supabase pooler) se connection successful hai
+2026-02-24 18:26:17 [INFO]: TaskFlow server port 5000 pe chal raha hai
+2026-02-24 18:26:17 [INFO]: Environment: development
+2026-02-24 18:26:17 [INFO]: API URL: http://localhost:5000/api
+2026-02-24 18:26:21 [INFO]: PostgreSQL (Supabase pooler) se connection successful hai
+2026-02-24 18:26:21 [INFO]: TaskFlow server port 5000 pe chal raha hai
+2026-02-24 18:26:21 [INFO]: Environment: development
+2026-02-24 18:26:21 [INFO]: API URL: http://localhost:5000/api
+2026-02-24 18:26:27 [INFO]: PostgreSQL (Supabase pooler) se connection successful hai
+2026-02-24 18:26:27 [INFO]: TaskFlow server port 5000 pe chal raha hai
+2026-02-24 18:26:27 [INFO]: Environment: development
+2026-02-24 18:26:27 [INFO]: API URL: http://localhost:5000/api
+2026-02-24 18:26:28 [INFO]: PostgreSQL (Supabase pooler) se connection successful hai
+2026-02-24 18:26:29 [INFO]: TaskFlow server port 5000 pe chal raha hai
+2026-02-24 18:26:29 [INFO]: Environment: development
+2026-02-24 18:26:29 [INFO]: API URL: http://localhost:5000/api
+2026-02-24 18:39:17 [INFO]: GET /api/auth/check 200 158 - 331.337 ms
+2026-02-24 18:39:17 [INFO]: GET /api/auth/check 304 - - 39.301 ms
+2026-02-24 18:39:27 [INFO]: GET /api/notifications 200 51 - 46.287 ms
+2026-02-24 18:39:27 [INFO]: GET /api/notifications 304 - - 33.620 ms
+2026-02-24 18:39:27 [INFO]: GET /api/tasks/dashboard/stats 200 302 - 532.604 ms
+2026-02-24 18:39:27 [INFO]: GET /api/tasks/dashboard/stats 304 - - 41.145 ms
+2026-02-24 18:39:27 [INFO]: GET /api/suggestions 200 33 - 580.024 ms
+2026-02-24 18:39:27 [INFO]: GET /api/suggestions 304 - - 43.795 ms
+2026-02-24 18:39:57 [INFO]: GET /api/notifications 304 - - 37.797 ms
+2026-02-24 18:40:27 [INFO]: GET /api/notifications 304 - - 43.307 ms
+2026-02-24 18:40:57 [INFO]: GET /api/notifications 304 - - 40.476 ms
+2026-02-24 18:41:27 [INFO]: GET /api/notifications 304 - - 48.209 ms
+2026-02-24 18:41:53 [INFO]: GET /api/notifications 304 - - 41.847 ms
+2026-02-24 18:41:53 [INFO]: GET /api/notifications 304 - - 35.573 ms
+2026-02-24 18:41:54 [INFO]: GET /api/tasks?page=1&limit=10 200 99 - 293.929 ms
+2026-02-24 18:41:54 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 66.215 ms
+2026-02-24 18:43:44 [INFO]: GET /api/auth/check 304 - - 325.448 ms
+2026-02-24 18:43:44 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 339.594 ms
+2026-02-24 18:43:44 [INFO]: GET /api/auth/check 304 - - 37.336 ms
+2026-02-24 18:43:44 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 75.189 ms
+2026-02-24 18:43:53 [INFO]: GET /api/tasks/dashboard/stats 304 - - 333.827 ms
+2026-02-24 18:43:53 [INFO]: GET /api/tasks/dashboard/stats 304 - - 38.211 ms
+2026-02-24 18:43:53 [INFO]: GET /api/suggestions 304 - - 385.195 ms
+2026-02-24 18:43:53 [INFO]: GET /api/auth/check 304 - - 427.827 ms
+2026-02-24 18:43:53 [INFO]: GET /api/suggestions 304 - - 39.874 ms
+2026-02-24 18:43:54 [INFO]: GET /api/auth/check 304 - - 40.361 ms
+2026-02-24 18:43:54 [INFO]: GET /api/notifications 304 - - 33.891 ms
+2026-02-24 18:43:54 [INFO]: GET /api/notifications 304 - - 32.059 ms
+2026-02-24 18:44:04 [INFO]: GET /api/notifications 304 - - 35.848 ms
+2026-02-24 18:44:04 [INFO]: GET /api/notifications 304 - - 38.157 ms
+2026-02-24 18:44:12 [INFO]: GET /api/notifications 304 - - 40.901 ms
+2026-02-24 18:44:12 [INFO]: GET /api/notifications 304 - - 34.161 ms
+2026-02-24 18:44:12 [INFO]: GET /api/notifications 304 - - 38.828 ms
+2026-02-24 18:44:12 [INFO]: GET /api/notifications 304 - - 35.517 ms
+2026-02-24 18:44:14 [INFO]: GET /api/notifications 304 - - 38.562 ms
+2026-02-24 18:44:14 [INFO]: GET /api/notifications 304 - - 38.985 ms
+2026-02-24 18:44:14 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 85.161 ms
+2026-02-24 18:44:14 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 81.143 ms
+2026-02-24 18:44:20 [INFO]: GET /api/auth/check 304 - - 39.577 ms
+2026-02-24 18:44:20 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 111.168 ms
+2026-02-24 18:44:20 [INFO]: GET /api/auth/check 304 - - 40.947 ms
+2026-02-24 18:44:20 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 74.668 ms
+2026-02-24 18:44:20 [INFO]: GET /api/notifications 304 - - 40.028 ms
+2026-02-24 18:44:20 [INFO]: GET /api/notifications 304 - - 36.283 ms
+2026-02-24 18:46:59 [INFO]: GET /api/auth/check 304 - - 346.221 ms
+2026-02-24 18:46:59 [INFO]: GET /api/auth/check 304 - - 34.633 ms
+2026-02-24 18:46:59 [INFO]: GET /api/notifications 304 - - 33.673 ms
+2026-02-24 18:46:59 [INFO]: GET /api/notifications 304 - - 27.253 ms
+2026-02-24 18:47:04 [INFO]: GET /api/auth/check 304 - - 30.451 ms
+2026-02-24 18:47:04 [INFO]: GET /api/auth/check 304 - - 35.894 ms
+2026-02-24 18:47:04 [INFO]: GET /api/notifications 304 - - 34.026 ms
+2026-02-24 18:47:04 [INFO]: GET /api/notifications 304 - - 33.735 ms
+2026-02-24 18:47:11 [INFO]: GET /api/suggestions 304 - - 354.065 ms
+2026-02-24 18:47:11 [INFO]: GET /api/tasks/dashboard/stats 304 - - 408.050 ms
+2026-02-24 18:47:11 [INFO]: GET /api/suggestions 304 - - 36.978 ms
+2026-02-24 18:47:11 [INFO]: GET /api/tasks/dashboard/stats 304 - - 34.544 ms
+2026-02-24 18:47:11 [INFO]: GET /api/auth/check 304 - - 508.312 ms
+2026-02-24 18:47:11 [INFO]: GET /api/auth/check 304 - - 43.956 ms
+2026-02-24 18:47:11 [INFO]: GET /api/notifications 304 - - 43.866 ms
+2026-02-24 18:47:11 [INFO]: GET /api/notifications 304 - - 42.735 ms
+2026-02-24 18:47:14 [INFO]: GET /api/suggestions 304 - - 28.231 ms
+2026-02-24 18:47:14 [INFO]: GET /api/auth/check 304 - - 31.833 ms
+2026-02-24 18:47:14 [INFO]: GET /api/tasks/dashboard/stats 304 - - 45.695 ms
+2026-02-24 18:47:15 [INFO]: GET /api/auth/check 304 - - 33.132 ms
+2026-02-24 18:47:15 [INFO]: GET /api/suggestions 304 - - 46.819 ms
+2026-02-24 18:47:15 [INFO]: GET /api/tasks/dashboard/stats 304 - - 42.619 ms
+2026-02-24 18:47:15 [INFO]: GET /api/notifications 304 - - 32.974 ms
+2026-02-24 18:47:15 [INFO]: GET /api/notifications 304 - - 33.218 ms
+2026-02-24 18:47:24 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 18:47:24 [INFO]: GET /api/auth/check 401 74 - 7.844 ms
+2026-02-24 18:47:24 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 18:47:24 [INFO]: GET /api/auth/check 401 74 - 0.692 ms
+2026-02-24 18:48:14 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 18:48:14 [INFO]: GET /api/auth/check 401 74 - 0.853 ms
+2026-02-24 18:48:14 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 18:48:14 [INFO]: GET /api/auth/check 401 74 - 0.820 ms
+2026-02-24 18:54:20 [INFO]: User logged in: shivam.bgp@outlook.com
+2026-02-24 18:54:20 [INFO]: POST /api/auth/login 200 451 - 629.373 ms
+2026-02-24 18:54:21 [INFO]: GET /api/notifications 304 - - 47.553 ms
+2026-02-24 18:54:21 [INFO]: GET /api/notifications 304 - - 38.825 ms
+2026-02-24 18:54:21 [INFO]: GET /api/tasks/dashboard/stats 304 - - 362.751 ms
+2026-02-24 18:54:21 [INFO]: GET /api/suggestions 304 - - 357.990 ms
+2026-02-24 18:54:21 [INFO]: GET /api/tasks/dashboard/stats 304 - - 38.704 ms
+2026-02-24 18:54:21 [INFO]: GET /api/suggestions 304 - - 36.369 ms
+2026-02-24 18:54:32 [INFO]: GET /api/tasks/dashboard/stats 304 - - 41.505 ms
+2026-02-24 18:54:32 [INFO]: GET /api/auth/check 200 158 - 36.479 ms
+2026-02-24 18:54:32 [INFO]: GET /api/suggestions 304 - - 41.730 ms
+2026-02-24 18:54:32 [INFO]: GET /api/tasks/dashboard/stats 304 - - 41.696 ms
+2026-02-24 18:54:32 [INFO]: GET /api/suggestions 304 - - 41.887 ms
+2026-02-24 18:54:32 [INFO]: GET /api/auth/check 304 - - 42.620 ms
+2026-02-24 18:54:32 [INFO]: GET /api/notifications 304 - - 29.808 ms
+2026-02-24 18:54:32 [INFO]: GET /api/notifications 304 - - 26.014 ms
+2026-02-24 18:55:02 [INFO]: GET /api/notifications 304 - - 31.167 ms
+2026-02-24 18:55:28 [INFO]: Suggestions generated for user shivam.bgp@outlook.com: 1 suggestions
+2026-02-24 18:55:28 [INFO]: POST /api/suggestions/generate 200 67 - 485.034 ms
+2026-02-24 18:55:31 [INFO]: GET /api/notifications 304 - - 24.754 ms
+2026-02-24 18:55:31 [INFO]: GET /api/notifications 304 - - 24.964 ms
+2026-02-24 18:55:31 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 61.611 ms
+2026-02-24 18:55:31 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 63.901 ms
+2026-02-24 18:56:01 [INFO]: GET /api/notifications 304 - - 84.143 ms
+2026-02-24 18:56:31 [INFO]: GET /api/notifications 304 - - 34.828 ms
+2026-02-24 18:57:01 [INFO]: GET /api/notifications 304 - - 40.674 ms
+2026-02-24 18:57:31 [INFO]: GET /api/notifications 304 - - 33.320 ms
+2026-02-24 18:58:01 [INFO]: GET /api/notifications 304 - - 39.981 ms
+2026-02-24 18:58:31 [INFO]: GET /api/notifications 304 - - 34.917 ms
+2026-02-24 18:59:01 [INFO]: GET /api/notifications 304 - - 36.448 ms
+2026-02-24 18:59:31 [INFO]: GET /api/notifications 304 - - 37.301 ms
+2026-02-24 19:00:01 [INFO]: GET /api/notifications 304 - - 34.234 ms
+2026-02-24 19:00:31 [INFO]: GET /api/notifications 304 - - 33.327 ms
+2026-02-24 19:01:01 [INFO]: GET /api/notifications 304 - - 35.402 ms
+2026-02-24 19:01:31 [INFO]: GET /api/notifications 304 - - 34.136 ms
+2026-02-24 19:02:01 [INFO]: GET /api/notifications 304 - - 96.132 ms
+2026-02-24 19:02:31 [INFO]: GET /api/notifications 304 - - 33.238 ms
+2026-02-24 19:03:01 [INFO]: GET /api/notifications 304 - - 37.230 ms
+2026-02-24 19:03:31 [INFO]: GET /api/notifications 304 - - 33.071 ms
+2026-02-24 19:04:01 [INFO]: GET /api/notifications 304 - - 33.145 ms
+2026-02-24 19:04:31 [INFO]: GET /api/notifications 304 - - 31.720 ms
+2026-02-24 19:05:01 [INFO]: GET /api/notifications 304 - - 35.883 ms
+2026-02-24 19:05:31 [INFO]: GET /api/notifications 304 - - 35.255 ms
+2026-02-24 19:06:01 [INFO]: GET /api/notifications 304 - - 35.130 ms
+2026-02-24 19:06:31 [INFO]: GET /api/notifications 304 - - 33.693 ms
+2026-02-24 19:07:01 [INFO]: GET /api/notifications 304 - - 52.857 ms
+2026-02-24 19:07:31 [INFO]: GET /api/notifications 304 - - 36.308 ms
+2026-02-24 19:08:01 [INFO]: GET /api/notifications 304 - - 34.396 ms
+2026-02-24 19:08:31 [INFO]: GET /api/notifications 304 - - 34.013 ms
+2026-02-24 19:09:01 [INFO]: GET /api/notifications 304 - - 32.450 ms
+2026-02-24 19:09:31 [INFO]: GET /api/notifications 304 - - 34.238 ms
+2026-02-24 19:10:01 [INFO]: GET /api/notifications 304 - - 36.125 ms
+2026-02-24 19:10:31 [INFO]: GET /api/notifications 304 - - 36.493 ms
+2026-02-24 19:11:00 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 76.468 ms
+2026-02-24 19:11:00 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 76.451 ms
+2026-02-24 19:11:00 [INFO]: GET /api/auth/check 304 - - 333.488 ms
+2026-02-24 19:11:00 [INFO]: GET /api/auth/check 304 - - 34.341 ms
+2026-02-24 19:11:01 [INFO]: GET /api/notifications 304 - - 39.164 ms
+2026-02-24 19:11:01 [INFO]: GET /api/notifications 304 - - 38.711 ms
+2026-02-24 19:11:08 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 19:11:08 [INFO]: GET /api/auth/check 401 74 - 1.126 ms
+2026-02-24 19:11:08 [WARN]: Auth middleware: Token nahi mila - unauthorized access attempt
+2026-02-24 19:11:08 [INFO]: GET /api/auth/check 401 74 - 2.616 ms
+2026-02-24 19:11:17 [INFO]: GET /api/notifications 304 - - 35.397 ms
+2026-02-24 19:11:17 [INFO]: GET /api/suggestions 200 242 - 56.316 ms
+2026-02-24 19:11:17 [INFO]: GET /api/notifications 304 - - 31.465 ms
+2026-02-24 19:11:17 [INFO]: GET /api/suggestions 304 - - 37.805 ms
+2026-02-24 19:11:17 [INFO]: GET /api/tasks/dashboard/stats 304 - - 399.123 ms
+2026-02-24 19:11:18 [INFO]: GET /api/tasks/dashboard/stats 304 - - 42.251 ms
+2026-02-24 19:11:30 [INFO]: GET /api/notifications 304 - - 39.150 ms
+2026-02-24 19:11:30 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 64.700 ms
+2026-02-24 19:11:30 [INFO]: GET /api/notifications 304 - - 34.210 ms
+2026-02-24 19:11:30 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 66.672 ms
+2026-02-24 19:12:00 [INFO]: GET /api/notifications 304 - - 35.713 ms
+2026-02-24 19:12:31 [INFO]: GET /api/notifications 304 - - 411.749 ms
+2026-02-24 19:13:00 [INFO]: GET /api/notifications 304 - - 40.665 ms
+2026-02-24 19:13:30 [INFO]: GET /api/notifications 304 - - 44.800 ms
+2026-02-24 19:14:00 [INFO]: GET /api/notifications 304 - - 42.646 ms
+2026-02-24 19:14:30 [INFO]: GET /api/notifications 304 - - 44.404 ms
+2026-02-24 19:15:24 [INFO]: GET /api/notifications 304 - - 292.254 ms
+2026-02-24 19:15:36 [INFO]: GET /api/notifications 304 - - 34.139 ms
+2026-02-24 19:15:45 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 65.340 ms
+2026-02-24 19:15:45 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 67.528 ms
+2026-02-24 19:15:46 [INFO]: GET /api/auth/check 304 - - 395.102 ms
+2026-02-24 19:15:46 [INFO]: GET /api/auth/check 304 - - 50.960 ms
+2026-02-24 19:15:46 [INFO]: GET /api/notifications 304 - - 42.648 ms
+2026-02-24 19:15:46 [INFO]: GET /api/notifications 304 - - 36.888 ms
+2026-02-24 19:16:16 [INFO]: GET /api/notifications 304 - - 40.412 ms
+2026-02-24 19:16:22 [INFO]: GET /api/notifications 304 - - 39.743 ms
+2026-02-24 19:16:22 [INFO]: GET /api/notifications 304 - - 40.279 ms
+2026-02-24 19:16:22 [INFO]: GET /api/notifications 304 - - 35.474 ms
+2026-02-24 19:16:22 [INFO]: GET /api/notifications 304 - - 37.356 ms
+2026-02-24 19:16:23 [INFO]: GET /api/notifications 304 - - 50.138 ms
+2026-02-24 19:16:23 [INFO]: GET /api/suggestions 304 - - 38.677 ms
+2026-02-24 19:16:23 [INFO]: GET /api/suggestions 304 - - 44.426 ms
+2026-02-24 19:16:24 [INFO]: GET /api/notifications 304 - - 335.047 ms
+2026-02-24 19:16:24 [INFO]: GET /api/tasks/dashboard/stats 304 - - 386.978 ms
+2026-02-24 19:16:24 [INFO]: GET /api/tasks/dashboard/stats 304 - - 38.846 ms
+2026-02-24 19:16:29 [INFO]: GET /api/notifications 304 - - 37.516 ms
+2026-02-24 19:16:29 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 70.026 ms
+2026-02-24 19:16:29 [INFO]: GET /api/notifications 304 - - 41.624 ms
+2026-02-24 19:16:29 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 66.698 ms
+2026-02-24 19:16:41 [INFO]: Task created: hey bro by user shivam.bgp@outlook.com
+2026-02-24 19:16:41 [INFO]: POST /api/tasks 201 318 - 98.535 ms
+2026-02-24 19:16:41 [INFO]: GET /api/tasks?page=1&limit=10 200 348 - 65.432 ms
+2026-02-24 19:16:56 [INFO]: Task created: hi bro by user shivam.bgp@outlook.com
+2026-02-24 19:16:56 [INFO]: POST /api/tasks 201 318 - 75.199 ms
+2026-02-24 19:16:56 [INFO]: GET /api/tasks?page=1&limit=10 200 598 - 76.960 ms
+2026-02-24 19:16:58 [INFO]: GET /api/notifications 200 557 - 41.384 ms
+2026-02-24 19:16:58 [INFO]: GET /api/notifications 304 - - 40.134 ms
+2026-02-24 19:16:59 [INFO]: GET /api/suggestions 304 - - 428.745 ms
+2026-02-24 19:16:59 [INFO]: GET /api/tasks/dashboard/stats 200 801 - 467.902 ms
+2026-02-24 19:16:59 [INFO]: GET /api/suggestions 304 - - 37.458 ms
+2026-02-24 19:16:59 [INFO]: GET /api/tasks/dashboard/stats 304 - - 38.430 ms
+2026-02-24 19:17:06 [INFO]: Suggestions generated for user shivam.bgp@outlook.com: 0 suggestions
+2026-02-24 19:17:06 [INFO]: POST /api/suggestions/generate 200 67 - 80.510 ms
+2026-02-24 19:17:08 [INFO]: Suggestions generated for user shivam.bgp@outlook.com: 0 suggestions
+2026-02-24 19:17:08 [INFO]: POST /api/suggestions/generate 200 67 - 72.928 ms
+2026-02-24 19:17:09 [INFO]: Suggestions generated for user shivam.bgp@outlook.com: 0 suggestions
+2026-02-24 19:17:09 [INFO]: POST /api/suggestions/generate 200 67 - 68.504 ms
+2026-02-24 19:17:28 [INFO]: GET /api/notifications 304 - - 34.659 ms
+2026-02-24 19:17:58 [INFO]: GET /api/notifications 304 - - 38.760 ms
+2026-02-24 19:20:42 [INFO]: GET /api/suggestions 200 33 - 440.935 ms
+2026-02-24 19:20:42 [INFO]: GET /api/auth/check 304 - - 454.938 ms
+2026-02-24 19:20:42 [INFO]: GET /api/tasks/dashboard/stats 304 - - 475.776 ms
+2026-02-24 19:20:42 [INFO]: GET /api/suggestions 304 - - 47.573 ms
+2026-02-24 19:20:42 [INFO]: GET /api/auth/check 304 - - 39.443 ms
+2026-02-24 19:20:42 [INFO]: GET /api/tasks/dashboard/stats 304 - - 35.559 ms
+2026-02-24 19:20:42 [INFO]: GET /api/notifications 304 - - 36.417 ms
+2026-02-24 19:20:42 [INFO]: GET /api/notifications 304 - - 41.460 ms
+2026-02-24 19:20:46 [INFO]: GET /api/tasks/dashboard/stats 304 - - 44.181 ms
+2026-02-24 19:20:46 [INFO]: GET /api/auth/check 304 - - 36.084 ms
+2026-02-24 19:20:46 [INFO]: GET /api/suggestions 304 - - 47.843 ms
+2026-02-24 19:20:46 [INFO]: GET /api/tasks/dashboard/stats 304 - - 45.325 ms
+2026-02-24 19:20:46 [INFO]: GET /api/auth/check 304 - - 45.395 ms
+2026-02-24 19:20:46 [INFO]: GET /api/suggestions 304 - - 42.417 ms
+2026-02-24 19:20:46 [INFO]: GET /api/notifications 304 - - 34.800 ms
+2026-02-24 19:20:47 [INFO]: GET /api/notifications 304 - - 30.578 ms
+2026-02-24 19:20:55 [INFO]: GET /api/notifications 304 - - 25.131 ms
+2026-02-24 19:20:55 [INFO]: GET /api/notifications 304 - - 23.806 ms
+2026-02-24 19:20:55 [INFO]: GET /api/notifications 304 - - 24.861 ms
+2026-02-24 19:20:55 [INFO]: GET /api/notifications 304 - - 24.046 ms
+2026-02-24 19:20:56 [INFO]: All notifications marked as read for user shivam.bgp@outlook.com
+2026-02-24 19:20:56 [INFO]: PUT /api/notifications/read-all 200 66 - 42.874 ms
+2026-02-24 19:20:58 [INFO]: DELETE /api/notifications/7edd1cd2-38b2-4d83-9fc3-5fe950844810 200 56 - 34.936 ms
+2026-02-24 19:20:59 [INFO]: DELETE /api/notifications/4095dfff-5bbb-47f5-923c-1762f1147d38 200 56 - 30.947 ms
+2026-02-24 19:21:06 [INFO]: GET /api/notifications 200 51 - 27.447 ms
+2026-02-24 19:21:06 [INFO]: GET /api/notifications 304 - - 25.662 ms
+2026-02-24 19:21:22 [INFO]: GET /api/notifications 304 - - 30.531 ms
+2026-02-24 19:21:22 [INFO]: GET /api/notifications 304 - - 29.159 ms
+2026-02-24 19:21:22 [INFO]: GET /api/tasks/dashboard/stats 304 - - 537.067 ms
+2026-02-24 19:21:22 [INFO]: GET /api/suggestions 304 - - 586.129 ms
+2026-02-24 19:21:22 [INFO]: GET /api/tasks/dashboard/stats 304 - - 44.907 ms
+2026-02-24 19:21:22 [INFO]: GET /api/suggestions 304 - - 34.897 ms
+2026-02-24 19:21:52 [INFO]: GET /api/notifications 304 - - 30.297 ms
+2026-02-24 19:22:22 [INFO]: GET /api/notifications 304 - - 35.801 ms
+2026-02-24 19:22:52 [INFO]: GET /api/notifications 304 - - 33.412 ms
+2026-02-24 19:23:23 [INFO]: GET /api/notifications 304 - - 260.348 ms
+2026-02-24 19:23:52 [INFO]: GET /api/notifications 304 - - 29.282 ms
+2026-02-24 19:24:22 [INFO]: GET /api/notifications 304 - - 37.970 ms
+2026-02-24 19:25:13 [INFO]: GET /api/notifications 304 - - 347.315 ms
+2026-02-24 19:25:22 [INFO]: GET /api/notifications 304 - - 34.980 ms
+2026-02-24 19:25:52 [INFO]: GET /api/notifications 304 - - 40.452 ms
+2026-02-24 19:26:22 [INFO]: GET /api/notifications 304 - - 95.265 ms
+2026-02-24 19:26:26 [INFO]: GET /api/notifications 304 - - 140.824 ms
+2026-02-24 19:26:26 [INFO]: GET /api/notifications 304 - - 35.526 ms
+2026-02-24 19:26:26 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 391.224 ms
+2026-02-24 19:26:26 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 53.656 ms
+2026-02-24 19:26:28 [INFO]: GET /api/tasks?status=completed&page=1&limit=10 200 99 - 63.603 ms
+2026-02-24 19:26:28 [INFO]: GET /api/tasks?priority=high&page=1&limit=10 200 99 - 52.148 ms
+2026-02-24 19:26:28 [INFO]: GET /api/tasks?status=pending&page=1&limit=10 200 598 - 50.156 ms
+2026-02-24 19:26:29 [INFO]: GET /api/tasks?page=1&limit=10 304 - - 53.995 ms
+2026-02-24 19:26:56 [INFO]: GET /api/notifications 304 - - 25.150 ms
+2026-02-24 19:27:15 [INFO]: Task updated: hi bro by user shivam.bgp@outlook.com
+2026-02-24 19:27:15 [INFO]: PUT /api/tasks/0108d6f5-77a5-4ef5-ac04-af52aba4f4f9 200 320 - 75.639 ms
+2026-02-24 19:27:16 [INFO]: GET /api/tasks?page=1&limit=10 200 600 - 49.832 ms
+2026-02-24 19:27:17 [INFO]: Task updated: hey bro by user shivam.bgp@outlook.com
+2026-02-24 19:27:17 [INFO]: PUT /api/tasks/c8064033-f100-4d9d-ab24-83f4479e974e 200 320 - 85.993 ms
+2026-02-24 19:27:17 [INFO]: GET /api/tasks?page=1&limit=10 200 602 - 53.136 ms
+2026-02-24 19:27:20 [INFO]: GET /api/notifications 200 561 - 28.473 ms
+2026-02-24 19:27:20 [INFO]: GET /api/notifications 304 - - 29.046 ms
+2026-02-24 19:27:21 [INFO]: GET /api/suggestions 304 - - 424.107 ms
+2026-02-24 19:27:21 [INFO]: GET /api/tasks/dashboard/stats 200 805 - 442.475 ms
+2026-02-24 19:27:21 [INFO]: GET /api/suggestions 304 - - 38.260 ms
+2026-02-24 19:27:21 [INFO]: GET /api/tasks/dashboard/stats 304 - - 38.786 ms
+2026-02-24 19:28:06 [INFO]: PostgreSQL (Supabase pooler) se connection successful hai
+2026-02-24 19:28:06 [INFO]: TaskFlow server port 5000 pe chal raha hai
+2026-02-24 19:28:06 [INFO]: Environment: development
+2026-02-24 19:28:06 [INFO]: API URL: http://localhost:5000/api
+2026-02-24 19:28:07 [INFO]: GET /api/notifications 304 - - 36.785 ms
+2026-02-24 19:28:07 [INFO]: GET /api/notifications 304 - - 30.741 ms
+2026-02-24 19:28:07 [INFO]: GET /api/tasks/dashboard/stats 304 - - 343.367 ms
+2026-02-24 19:28:07 [INFO]: GET /api/tasks/dashboard/stats 304 - - 45.439 ms
+2026-02-24 19:28:38 [INFO]: GET /api/notifications 304 - - 277.506 ms
+2026-02-24 19:28:42 [INFO]: GET /api/notifications 304 - - 32.753 ms
+2026-02-24 19:28:42 [INFO]: GET /api/notifications 304 - - 24.474 ms
+2026-02-24 19:28:50 [INFO]: GET /api/notifications 304 - - 29.267 ms
+2026-02-24 19:28:50 [INFO]: GET /api/notifications 304 - - 28.138 ms
+2026-02-24 19:28:50 [INFO]: GET /api/notifications 304 - - 25.735 ms
+2026-02-24 19:28:50 [INFO]: GET /api/notifications 304 - - 25.000 ms
+2026-02-24 19:28:51 [INFO]: All notifications marked as read for user shivam.bgp@outlook.com
+2026-02-24 19:28:51 [INFO]: PUT /api/notifications/read-all 200 66 - 27.117 ms
+2026-02-24 19:28:52 [INFO]: DELETE /api/notifications/cfe15a0c-2b1d-476e-b43e-97bce4ca1ed1 200 56 - 33.266 ms
+2026-02-24 19:28:53 [INFO]: DELETE /api/notifications/72027b88-b720-4c8c-a9d4-d546a317b696 200 56 - 30.790 ms
+2026-02-24 19:29:20 [INFO]: GET /api/notifications 200 51 - 25.982 ms
+2026-02-24 19:29:43 [INFO]: PostgreSQL (Supabase pooler) se connection successful hai
+2026-02-24 19:29:43 [INFO]: TaskFlow server port 5000 pe chal raha hai
+2026-02-24 19:29:43 [INFO]: Environment: development
+2026-02-24 19:29:43 [INFO]: API URL: http://localhost:5000/api
+2026-02-24 19:29:50 [INFO]: GET /api/notifications 304 - - 45.085 ms
+2026-02-24 19:30:20 [INFO]: GET /api/notifications 304 - - 33.994 ms
+2026-02-24 19:30:24 [INFO]: GET /api/tasks/dashboard/stats 304 - - 366.120 ms
+2026-02-24 19:30:24 [INFO]: GET /api/tasks/dashboard/stats 304 - - 44.399 ms
+2026-02-24 19:30:24 [INFO]: GET /api/auth/check 304 - - 444.620 ms
+2026-02-24 19:30:24 [INFO]: GET /api/auth/check 304 - - 49.925 ms
+2026-02-24 19:30:25 [INFO]: GET /api/notifications 304 - - 48.947 ms
+2026-02-24 19:30:25 [INFO]: GET /api/notifications 304 - - 47.108 ms
+2026-02-24 19:30:34 [INFO]: GET /api/notifications 304 - - 40.729 ms
+2026-02-24 19:30:34 [INFO]: GET /api/notifications 304 - - 41.469 ms
+2026-02-24 19:30:34 [INFO]: GET /api/notifications 304 - - 41.932 ms
+2026-02-24 19:30:34 [INFO]: GET /api/notifications 304 - - 49.778 ms
+2026-02-24 19:30:35 [INFO]: GET /api/notifications 304 - - 45.757 ms
+2026-02-24 19:30:35 [INFO]: GET /api/notifications 304 - - 46.019 ms
+2026-02-24 19:30:39 [INFO]: GET /api/notifications 304 - - 48.146 ms
+2026-02-24 19:30:39 [INFO]: GET /api/tasks/dashboard/stats 304 - - 43.083 ms
+2026-02-24 19:30:39 [INFO]: GET /api/notifications 304 - - 37.355 ms
+2026-02-24 19:30:39 [INFO]: GET /api/tasks/dashboard/stats 304 - - 49.401 ms
+2026-02-24 19:31:09 [INFO]: GET /api/notifications 304 - - 43.229 ms
+2026-02-24 19:31:40 [INFO]: GET /api/notifications 304 - - 268.907 ms
+2026-02-24 19:32:09 [INFO]: GET /api/notifications 304 - - 27.518 ms
+2026-02-24 19:32:40 [INFO]: GET /api/notifications 304 - - 374.221 ms
+2026-02-24 19:33:09 [INFO]: GET /api/notifications 304 - - 32.542 ms
+2026-02-24 19:33:39 [INFO]: GET /api/notifications 304 - - 97.889 ms
+2026-02-24 19:34:41 [INFO]: GET /api/notifications 304 - - 283.221 ms
+2026-02-24 19:35:41 [INFO]: GET /api/notifications 304 - - 657.245 ms
+2026-02-24 19:36:41 [INFO]: GET /api/notifications 304 - - 215.391 ms
