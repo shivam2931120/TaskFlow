@@ -505,3 +505,19 @@
 2026-02-24 19:34:41 [INFO]: GET /api/notifications 304 - - 283.221 ms
 2026-02-24 19:35:41 [INFO]: GET /api/notifications 304 - - 657.245 ms
 2026-02-24 19:36:41 [INFO]: GET /api/notifications 304 - - 215.391 ms
+2026-02-24 19:41:21 [INFO]: PostgreSQL (Supabase pooler) se connection successful hai
+2026-02-24 19:41:21 [INFO]: TaskFlow server port 5000 pe chal raha hai
+2026-02-24 19:41:21 [INFO]: Environment: development
+2026-02-24 19:41:21 [INFO]: API URL: http://localhost:5000/api
+2026-02-24 19:58:15 [INFO]: PostgreSQL (Supabase pooler) se connection successful hai
+2026-02-24 19:58:15 [INFO]: TaskFlow server port 5000 pe chal raha hai
+2026-02-24 19:58:15 [INFO]: Environment: development
+2026-02-24 19:58:15 [INFO]: API URL: http://localhost:5000/api
+2026-02-24 20:23:34 [INFO]: PostgreSQL (Supabase pooler) se connection successful hai
+2026-02-24 20:23:34 [INFO]: TaskFlow server port 5000 pe chal raha hai
+2026-02-24 20:23:34 [INFO]: Environment: development
+2026-02-24 20:23:34 [INFO]: API URL: http://localhost:5000/api
+2026-02-24 20:24:13 [INFO]: PostgreSQL (Supabase pooler) se connection successful hai
+2026-02-24 20:24:13 [INFO]: TaskFlow server port 5000 pe chal raha hai
+2026-02-24 20:24:13 [INFO]: Environment: development
+2026-02-24 20:24:13 [INFO]: API URL: http://localhost:5000/api

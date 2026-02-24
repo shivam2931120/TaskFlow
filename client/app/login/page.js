@@ -48,9 +48,9 @@ export default function LoginPage() {
     <div className="relative flex min-h-screen w-full flex-col bg-background-light dark:bg-background-dark overflow-x-hidden">
       {/* Header */}
       <div className="flex items-center bg-transparent p-4 pb-2 justify-between">
-        <Link href="/" className="text-slate-900 dark:text-slate-100 flex size-12 shrink-0 items-center">
+        {/* <Link href="/" className="text-slate-900 dark:text-slate-100 flex size-12 shrink-0 items-center">
           <span className="material-symbols-outlined text-[24px]">arrow_back</span>
-        </Link>
+        </Link> */}
         <h2 className="text-slate-900 dark:text-slate-100 text-lg font-bold leading-tight tracking-tight flex-1 text-center pr-12">
           TaskFlow
         </h2>
