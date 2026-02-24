@@ -32,27 +32,9 @@ const PORT = process.env.PORT || 5000;
 app.use(helmet());
 
 // CORS Configuration
-const allowedOrigins = process.env.NODE_ENV === 'production'
-  ? [process.env.FRONTEND_URL, 'https://task-flow-eight-drab.vercel.app', 'https://taskflow-client.vercel.app']
-  : ['http://localhost:3000', 'http://127.0.0.1:3000'];
-
 app.use(
   cors({
-    origin: function (origin, callback) {
-      // Allow requests with no origin (like mobile apps or curl requests)
-      if (!origin) return callback(null, true);
-
-      if (allowedOrigins.indexOf(origin) !== -1 || allowedOrigins.some(o => o && origin.startsWith(o))) {
-        callback(null, true);
-      } else {
-        // In development/vercel preview, sometimes origins are dynamic. We're relaxing it slightly for the portfolio project.
-        if (process.env.NODE_ENV !== 'production' || origin.includes('vercel.app')) {
-          callback(null, true);
-        } else {
-          callback(new Error('Not allowed by CORS'));
-        }
-      }
-    },
+    origin: true, // Dynamically allow any origin that makes the request (prevents trailing slash issues)
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
@@ -96,11 +78,14 @@ app.use(cookieParser());
 app.use(loggerMiddleware);
 
 // ==================== API ROUTES ====================
-// Saare routes /api prefix ke saath
-app.use('/api/auth', authRoutes);
-app.use('/api/users', userRoutes);
-app.use('/api/tasks', taskRoutes);
-app.use('/api/notifications', notificationRoutes);
+// Mounting routes with and without '/api' prefix to be fail-safe 
+// (in case NEXT_PUBLIC_API_URL is missing the /api suffix)
+['/api', ''].forEach((prefix) => {
+  app.use(`${prefix}/auth`, authRoutes);
+  app.use(`${prefix}/users`, userRoutes);
+  app.use(`${prefix}/tasks`, taskRoutes);
+  app.use(`${prefix}/notifications`, notificationRoutes);
+});
 
 // Root route
 app.get('/', (req, res) => {
