@@ -34,10 +34,13 @@ app.use(helmet());
 // CORS Configuration
 app.use(
   cors({
-    origin: true, // Dynamically allow any origin that makes the request (prevents trailing slash issues)
+    origin: function (origin, callback) {
+      // Just safely echo the exact origin requested by the browser
+      callback(null, origin || '*');
+    },
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'Accept'],
   })
 );
 
