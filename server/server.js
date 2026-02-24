@@ -31,13 +31,29 @@ const PORT = process.env.PORT || 5000;
 // Helmet - security headers set karta hai
 app.use(helmet());
 
-// CORS - frontend se requests allow karo
+// CORS Configuration
+const allowedOrigins = process.env.NODE_ENV === 'production'
+  ? [process.env.FRONTEND_URL, 'https://task-flow-eight-drab.vercel.app', 'https://taskflow-client.vercel.app']
+  : ['http://localhost:3000', 'http://127.0.0.1:3000'];
+
 app.use(
   cors({
-    origin: process.env.NODE_ENV === 'production'
-      ? process.env.FRONTEND_URL
-      : ['http://localhost:3000', 'http://127.0.0.1:3000'],
-    credentials: true, // Cookies bhejne ke liye zaroori hai
+    origin: function (origin, callback) {
+      // Allow requests with no origin (like mobile apps or curl requests)
+      if (!origin) return callback(null, true);
+
+      if (allowedOrigins.indexOf(origin) !== -1 || allowedOrigins.some(o => o && origin.startsWith(o))) {
+        callback(null, true);
+      } else {
+        // In development/vercel preview, sometimes origins are dynamic. We're relaxing it slightly for the portfolio project.
+        if (process.env.NODE_ENV !== 'production' || origin.includes('vercel.app')) {
+          callback(null, true);
+        } else {
+          callback(new Error('Not allowed by CORS'));
+        }
+      }
+    },
+    credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
   })
@@ -86,6 +102,15 @@ app.use('/api/users', userRoutes);
 app.use('/api/tasks', taskRoutes);
 app.use('/api/notifications', notificationRoutes);
 
+// Root route
+app.get('/', (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: 'TaskFlow API Root. Please use /api endpoints.',
+    timestamp: new Date().toISOString(),
+  });
+});
+
 // Health check route
 app.get('/api/health', (req, res) => {
   res.status(200).json({
@@ -108,15 +133,20 @@ const startServer = async () => {
     // Supabase connection test karo
     await testConnection();
 
-    // Server start karo
-    app.listen(PORT, () => {
-      logger.info(`TaskFlow server port ${PORT} pe chal raha hai`);
-      logger.info(`Environment: ${process.env.NODE_ENV || 'development'}`);
-      logger.info(`API URL: http://localhost:${PORT}/api`);
-    });
+    // Vercel handles the listening part internally, so we only listen if we are NOT on Vercel
+    if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
+      app.listen(PORT, () => {
+        logger.info(`TaskFlow server port ${PORT} pe chal raha hai`);
+        logger.info(`Environment: ${process.env.NODE_ENV || 'development'}`);
+        logger.info(`API URL: http://localhost:${PORT}/api`);
+      });
+    }
   } catch (error) {
     logger.error('Server start me error aaya: ' + error.message);
-    process.exit(1);
+    // Don't kill process on Vercel
+    if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
+      process.exit(1);
+    }
   }
 };
 
