@@ -48,8 +48,9 @@ export function AuthProvider({ children }) {
       // Token backup ke liye localStorage me bhi rakho
       if (res.data.token) {
         localStorage.setItem('token', res.data.token);
-        // Frontend Next.js middleware ke liye client-side cookie set karo (since backend cookies are cross-domain blocked)
-        document.cookie = `token=${res.data.token}; path=/; max-age=604800; SameSite=Lax`;
+        // Frontend Next.js middleware ke liye client-side cookie set karo
+        // Use SameSite=None and Secure to allow third-party cookie persistence across different Vercel custom domains
+        document.cookie = `token=${res.data.token}; path=/; max-age=604800; SameSite=None; Secure`;
       }
       router.push('/dashboard');
     }
@@ -63,7 +64,7 @@ export function AuthProvider({ children }) {
       setUser(res.data.user);
       if (res.data.token) {
         localStorage.setItem('token', res.data.token);
-        document.cookie = `token=${res.data.token}; path=/; max-age=604800; SameSite=Lax`;
+        document.cookie = `token=${res.data.token}; path=/; max-age=604800; SameSite=None; Secure`;
       }
       router.push('/dashboard');
     }
@@ -80,7 +81,7 @@ export function AuthProvider({ children }) {
     } finally {
       setUser(null);
       localStorage.removeItem('token');
-      document.cookie = "token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT";
+      document.cookie = "token=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; SameSite=None; Secure";
       router.push('/login');
     }
   };
